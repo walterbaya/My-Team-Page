@@ -1,0 +1,60 @@
+.vertical-text {
+    text-orientation: upright;
+    writing-mode: vertical-lr;
+    font-family: PT Serif;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase
+}
+
+.image-container {
+    height: 526px;
+}
+
+h1 {
+    font-family: Serif;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -0.045em;
+}
+
+h3 {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+h4 {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: uppercase;
+}
+
+header p {
+    font-family: Poppins;
+    font-size: 18px;
+    line-height: 27px;
+    width: 350px;
+}
+
+img {
+    width: 238px;
+    height: 426.5px;
+}
+
+footer {
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #A9A9A9;
+}
+span{
+    text-decoration: underline;
+}
