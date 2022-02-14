@@ -36,6 +36,7 @@ h4 {
     text-transform: uppercase;
 }
 
+
 header p {
     font-family: Poppins;
     font-size: 18px;
@@ -55,6 +56,58 @@ footer {
     text-align: center;
     color: #A9A9A9;
 }
-span{
+
+span {
     text-decoration: underline;
+}
+
+@media (max-width: 767px) {
+    .image-container {
+        height: 356px;
+    }
+
+    .vertical-text {
+        text-orientation: upright;
+        writing-mode: vertical-lr;
+        font-family: PT Serif;
+        font-size: 10px;
+        line-height: 16px;
+        text-transform: uppercase
+    }
+    
+    h1 {
+        font-family: PT Serif;
+        font-weight: bold;
+        font-size: 8vw;
+        line-height: 48px;
+        letter-spacing: -0.045em;
+        color: #000000;
+    }
+
+    p {
+        width: max-content;
+    }
+
+    h3 {
+        font-family: Poppins;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+        text-transform: uppercase;
+
+        color: #000000;
+    }
+
+    h4 {
+        font-family: Poppins;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 27px;
+        text-transform: uppercase;
+    }
+
+    img {
+        min-width: 170px;
+        height: 240px;
+    }
 }
